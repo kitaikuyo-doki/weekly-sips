@@ -14,3 +14,10 @@ footer{flex:none;border:0;padding:0}
 footer>p{margin:0;font-size:10px}
 .toast{top:calc(76px + env(safe-area-inset-top));bottom:auto}
 @media(max-height:500px){main{padding-top:calc(12px + env(safe-area-inset-top));padding-left:16px;padding-right:16px;width:min(100%,640px)}.cups{grid-template-columns:repeat(4,1fr);gap:8px}.cup{height:clamp(90px,33dvh,130px)}.cup svg{width:32px;height:36px;margin-bottom:6px}.cup small{font-size:9px}.section-head{margin:10px 0}.hint{margin:10px 0}}
+
+/* Soft, high-key color blocks; no decorative outlines. */
+.cup,.cup.tea,.cup.used{border:0}
+.cup{background:#edf2e7}
+.cup.tea{background:#f7efe6}
+.cup.used{background:#f1f2ed}
+.cup.used svg{opacity:.42;filter:saturate(.45)}
