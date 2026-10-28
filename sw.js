@@ -1,9 +1,9 @@
 // Bump this version whenever the application shell changes.
-const CACHE = 'weekly-sips-v5';
+const CACHE = 'weekly-sips-v6';
 const ROOT = new URL('./', self.registration.scope).href;
 const SHELL = [
-  './', './index.html', './style.css?v=5', './logic.js', './app.js?v=5',
-  './icon.png?v=5', './icon.svg?v=5', './manifest.webmanifest?v=5'
+  './', './index.html', './style.css?v=6', './logic.js', './app.js?v=6',
+  './icon.png?v=6', './icon.svg?v=6', './manifest.webmanifest?v=6'
 ].map(path => new URL(path, ROOT).href);
 
 self.addEventListener('install', event => {
